@@ -1,0 +1,2 @@
+docker run -it --privileged --shm-size=300G --network host --device=/dev/dri -v `pwd`:/home/vmagent/app/ -w /home/vmagent/app/ aidk-denas-pytorch110 /bin/bash
+
